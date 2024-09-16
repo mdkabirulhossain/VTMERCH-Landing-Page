@@ -11,10 +11,10 @@ const Header = () => {
         <div className='header-div'>
             <nav className='header-div-nav'>
                 <div className='title-div'>
-                    <img src={logo} alt="" className='nav-img ' />
+                    <img src={logo} alt="" className='nav-img' />
                     <p className='nav-title'>VTMERCH</p>
                 </div>
-                <div className='nav-menu'>
+                <div className='nav-menu '>
                     <IoMenu className='text-white font-bold w-full h-full'></IoMenu>
                     <ul className='nav-profile-dropdown'>
                             <li className='cursor-pointer hover:text-orange-500'>Home</li> 
@@ -28,7 +28,7 @@ const Header = () => {
                 <div className='banner-text'>
                    future looks brights!
                 </div>
-                <div className='banner-adds absolute overflow-x-auto  bottom-0 left-0 right-0 top-20'>
+                <div className='banner-adds absolute overflow-x-auto scrollbar-hide bottom-0 left-0 right-0 top-20'>
                     <div className="banner-adds-div">
                         <img src={img_png_9} alt="" />
                         <div>
