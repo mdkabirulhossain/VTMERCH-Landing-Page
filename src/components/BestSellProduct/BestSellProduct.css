@@ -91,6 +91,9 @@
         display: grid;
         gap:40px
     }
+    .best-product {
+        height: 2200px;  
+    }
 
 }
 @media (min-width: 601px) and (max-width: 1199px){
@@ -106,5 +109,8 @@
         grid-template-columns: repeat(2, auto);
         gap:40px
         
+    }
+    .best-product {
+        height: 1277px;  
     }
 }
