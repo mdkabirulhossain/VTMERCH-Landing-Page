@@ -1,20 +1,17 @@
 @font-face {
     font-family: Act of Rejection;
     src: url(../../assets/Font/act_of_rejection/Act_Of_Rejection.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: Inter;
     src: url(../../assets/Font/Inter/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
-}
-
-@font-face {
+  }
+  
+  @font-face {
     font-family: Montserrat;
     src: url(../../assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
-}
-
-
-
+  }
 .header-div {
     width: 100%;
     height: 940px;
@@ -33,7 +30,7 @@
 .nav-img {
     width: 115px;
     height: 115px;
-    
+
 
 }
 
@@ -57,7 +54,7 @@
 
 }
 
-.nav-profile-dropdown{
+.nav-profile-dropdown {
     position: absolute;
     display: none;
     right: 0;
@@ -65,7 +62,7 @@
 
 }
 
-.nav-menu:hover .nav-profile-dropdown{
+.nav-menu:hover .nav-profile-dropdown {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -85,9 +82,10 @@
 
 /* Banner style  */
 
-.banner-div{
+.banner-div {
     margin-top: 146px;
 }
+
 .banner-text {
     font-family: Act of Rejection;
     font-size: 140px;
@@ -96,7 +94,7 @@
     letter-spacing: 1px;
     text-align: center;
     color: #FFFFFF66;
-   
+
 
 }
 
@@ -151,73 +149,90 @@
     white-space: nowrap;
 }
 
-.banner-adds::-webkit-scrollbar{
+.banner-adds::-webkit-scrollbar {
     display: none;
 }
 
-@media(max-width: 600px){
+@media(max-width: 600px) {
     .nav-img {
         width: 50px;
         height: 50px;
     }
-    .nav-title{
-    font-size: 32px; 
+
+    .nav-title {
+        font-size: 32px;
     }
+
     .title-div {
         justify-content: space-between;
         margin-left: 2;
     }
-    .banner-text{
+
+    .banner-text {
         font-size: 30px;
     }
-    .banner-adds{
+
+    .banner-adds {
         margin-left: 8px;
     }
-    .nav-menu{
+
+    .nav-menu {
         margin-top: 5px;
         margin-right: 2px;
     }
-    .title-div{
+
+    .title-div {
         margin-left: 2px;
     }
-    .banner-div{
+
+    .banner-div {
         margin-top: 50px;
     }
-    .header-div{
+
+    .header-div {
         height: 740px;
     }
 
 }
-@media (min-width: 601px) and (max-width: 1199px){
+
+@media (min-width: 601px) and (max-width: 1199px) {
     .nav-img {
         width: 80px;
         height: 80px;
     }
-    .nav-title{
-    font-size: 45px; 
+
+    .nav-title {
+        font-size: 45px;
     }
+
     .title-div {
         justify-content: space-between;
         margin-left: 2;
         margin-top: 2px;
     }
-    .banner-text{
+
+    .banner-text {
         font-size: 75px;
     }
-    .banner-adds{
+
+    .banner-adds {
         margin-left: 60px;
     }
-    .nav-menu{
+
+    .nav-menu {
         margin-top: 10px;
         margin-right: 10px;
     }
-    .title-div{
+
+    .title-div {
         margin-left: 2px;
     }
-    .banner-div{
+
+    .banner-div {
         margin-top: 50px;
     }
-    .header-div{
+
+    .header-div {
         height: 740px;
     }
 }

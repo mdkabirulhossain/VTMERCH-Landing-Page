@@ -6,17 +6,3 @@
   padding: 0;
   margin: 0;
 }
-@font-face {
-  font-family: Act of Rejection;
-  src: url(../../assets/Font/act_of_rejection/Act_Of_Rejection.ttf);
-}
-
-@font-face {
-  font-family: Inter;
-  src: url(../../assets/Font/Inter/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
-}
-
-@font-face {
-  font-family: Montserrat;
-  src: url(../../assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
-}

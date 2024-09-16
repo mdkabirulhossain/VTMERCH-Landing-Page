@@ -17,16 +17,16 @@ const Header = () => {
                 <div className='nav-menu '>
                     <IoMenu className='text-white font-bold w-full h-full'></IoMenu>
                     <ul className='nav-profile-dropdown'>
-                            <li className='cursor-pointer hover:text-orange-500'>Home</li> 
-                            <li className='cursor-pointer hover:text-orange-500'>About Us</li>
-                            <li className='cursor-pointer hover:text-orange-500'>Contact Us</li>
-                        </ul>
+                        <li className='cursor-pointer hover:text-orange-500'>Home</li>
+                        <li className='cursor-pointer hover:text-orange-500'>About Us</li>
+                        <li className='cursor-pointer hover:text-orange-500'>Contact Us</li>
+                    </ul>
                 </div>
             </nav>
             {/* Banner */}
             <div className='banner-div h-full relative'>
                 <div className='banner-text'>
-                   future looks brights!
+                    future looks brights!
                 </div>
                 <div className='banner-adds absolute overflow-x-auto scrollbar-hide bottom-0 left-0 right-0 top-20 pt-2 md:pt-6'>
                     <div className="banner-adds-div">
