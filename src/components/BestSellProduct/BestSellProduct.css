@@ -94,7 +94,7 @@
     .product {
         padding-left: 2px;
         margin-left: 0px;
-        display: grid;
+        flex-direction: column;
         gap: 40px
     }
 

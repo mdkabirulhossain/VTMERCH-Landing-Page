@@ -20,14 +20,14 @@ const ShopNow = () => {
                 </div>
                 <img src={pat_signature} alt="" className='pat-sign' />
             </div>
-            <div className="shop-right flex items-center">
+            <div className="shop-right flex flex-col items-center md:flex-row">
                 <img src={img_png_01} alt="" className='shop-right-img' />
                 <img src={img_png_08} alt="" className='shop-right-img-02' />
 
             </div>
 
         </div>
-        <div className='bottom flex'>
+        <div className='bottom flex flex-col-reverse lg:flex-row'>
             <div className='relative bottom-left'>
                 <img src={icon} alt="" className='icon-style '/>
                 <div className='bottom-text-left'>
