@@ -28,7 +28,7 @@ const Header = () => {
                 <div className='banner-text'>
                    future looks brights!
                 </div>
-                <div className='banner-adds absolute overflow-x-auto scrollbar-hide bottom-0 left-0 right-0 top-20'>
+                <div className='banner-adds absolute overflow-x-auto scrollbar-hide bottom-0 left-0 right-0 top-20 pt-2 md:pt-6'>
                     <div className="banner-adds-div">
                         <img src={img_png_9} alt="" />
                         <div>
