@@ -10,13 +10,48 @@
 .shop-left{
     display: flex;
     flex-direction: column;
+    padding-left: 150px;
 }
 .shop-left-title{
-    font-family: Montserrat;
+font-family: Montserrat;
 font-size: 49px;
 font-weight: 500;
 line-height: 58.8px;
 letter-spacing: 0.5px;
 text-align: left;
 color: #FFFFFF;
+margin-bottom: 16px;
+}
+.shop-left-signed{
+font-family: Montserrat;
+font-size: 70px;
+font-weight: 700;
+line-height: 84px;
+letter-spacing: 0.5px;
+text-align: left;
+background: linear-gradient(180deg, #DE2A2F 0%, #EF5256 100%);
+-webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+
+.button-div{
+    margin-top: 48px;
+    margin-bottom: 25px;
+    width: 186px;
+    height: 52px;
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    background: #FFFFFF;
+}
+.pat-sign{
+    width: 754px;
+    height: 223px;
+}
+.shop-right{
+    padding-right: 162px;
+}
+.shop-right-img{
+    width: 370px;
+    height: 588px;
 }
