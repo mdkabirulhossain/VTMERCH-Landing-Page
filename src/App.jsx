@@ -1,5 +1,6 @@
 import './App.css'
 import BestSellProduct from './components/BestSellProduct/BestSellProduct'
+import FutureLooks from './components/FutureLooks/FutureLooks'
 import Header from './components/Header/Header'
 import NewArrival from './components/NewArrival/NewArrival'
 import ShopCollection from './components/ShopCollection/ShopCollection'
@@ -15,6 +16,7 @@ function App() {
       <ShopNow></ShopNow>
       <ShopCollection></ShopCollection>
       <NewArrival></NewArrival>
+      <FutureLooks></FutureLooks>
     </>
   )
 }

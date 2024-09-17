@@ -81,6 +81,9 @@
 }
 
 @media(max-width: 600px) {
+    .NewArrival-product {
+        height: 2190px;
+    }
     .product-title-text {
         padding-top: 60px;
         margin-left: 2px;
@@ -102,6 +105,9 @@
 }
 
 @media (min-width: 601px) and (max-width: 1199px) {
+    .NewArrival-product {
+        height: 1290px;
+    }
     .product-title-text {
         margin-left: 0px;
         padding-left: 2px;
