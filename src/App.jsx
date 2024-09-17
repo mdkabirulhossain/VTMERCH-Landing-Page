@@ -1,4 +1,5 @@
 import './App.css'
+import Believe from './components/Believe/Believe'
 import BestSellProduct from './components/BestSellProduct/BestSellProduct'
 import FutureLooks from './components/FutureLooks/FutureLooks'
 import Header from './components/Header/Header'
@@ -17,6 +18,7 @@ function App() {
       <ShopCollection></ShopCollection>
       <NewArrival></NewArrival>
       <FutureLooks></FutureLooks>
+      <Believe></Believe>
     </>
   )
 }

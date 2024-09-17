@@ -1,0 +1,215 @@
+@font-face {
+    font-family: Act of Rejection;
+    src: url(../../assets/Font/act_of_rejection/Act_Of_Rejection.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/Font/Inter/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.believe-container {
+    width: 100%;
+    height: 1056px;
+    background: linear-gradient(97.11deg, #3B3B3B 3.61%, #000000 63.2%);
+}
+
+.believe-container-main {
+    display: flex;
+    gap: 51px;
+
+}
+
+.believe-container-background-img {
+    position: absolute;
+    width: 826px;
+    height: 826px;
+    background-image: url("../../assets/Logo/Valuetainment01.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 826px 826px;
+    opacity: 0.1;
+    top: 0;
+    right: 0;
+}
+
+.believe-container-left-img {
+    width: 641px;
+    height: 652px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 40px 0px #00000033;
+
+}
+
+.believe-container-right-text-div {
+    width: 743px;
+    height: 118px;
+    padding: 10px 0px 24px 0px;
+    border: 0px 0px 0.5px 0px;
+    /* border-bottom: 0.5px solid #FFFFFF80; */
+}
+
+.believe-container-divider {
+    color: #FFFFFF80;
+    margin-top: 10px;
+}
+
+.believe-container-left {
+    margin-top: 237px;
+    margin-left: 150px;
+}
+
+.believe-container-right {
+    margin-top: 344px;
+    margin-right: 410px;
+}
+
+.believe-container-right-text {
+    width: 632px;
+    height: 84px;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 48px;
+}
+
+
+.believe-container-right-text-span {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #FFFFFFCC;
+
+}
+
+.believe-container-them-text {
+    position: absolute;
+    top: 166px;
+    left: 462px;
+    width: 997px;
+    height: 168px;
+    font-family: Act of Rejection;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 168px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    /* box-shadow: 4px 4px 40px 0px #000000; */
+
+}
+
+.believe-container-chess-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 158px;
+    height: 435px;
+}
+
+@media(max-width:600px) {
+    .believe-container {
+        height: 2156px;
+    }
+
+    .believe-container-background-img {
+        width: 100%;
+        height: 306px;
+        left: 40px;
+    }
+
+    .believe-container-main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .believe-container-left {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .believe-container-them-text {
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 168px;
+        font-size: 30px;
+        font-weight: 300;
+        text-align: start;
+    }
+
+    .believe-container-right {
+        margin-top: 14px;
+        margin-right: 10px;
+    }
+    .believe-container-right-text-div {
+        width: 100%;
+        height: 258px;
+        padding-left: 10px;
+    }
+    .believe-container-right-text {
+        width:100%;
+        height: 124px;
+    }
+    .believe-container-divider {
+        margin-left: 10px;
+    }
+    .believe-container-chess-img {
+       
+        width: 158px;
+        height: 335px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1199px){
+    .believe-container {
+        height: 1856px;
+    }
+    .believe-container-main {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .believe-container-left {
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    .believe-container-them-text {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 168px;
+        font-size: 60px;
+        font-weight: 400;
+    }
+    .believe-container-right {
+        margin-top: 44px;
+        margin-right: 0px;
+    }
+    .believe-container-right-text-div {
+        width: 100%;
+        height: 158px;
+        padding-left: 10px;
+    }
+    .believe-container-right-text {
+        width:80%;
+        height: 124px;
+        font-size: 42px;
+    }
+    .believe-container-divider {
+        margin-left: 10px;
+        width: 80%;
+    }
+
+}
