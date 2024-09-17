@@ -1,6 +1,7 @@
 import './App.css'
 import BestSellProduct from './components/BestSellProduct/BestSellProduct'
 import Header from './components/Header/Header'
+import ShopCollection from './components/ShopCollection/ShopCollection'
 import ShopNow from './components/ShopNow/ShopNow'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <BestSellProduct></BestSellProduct>
       <ShopNow></ShopNow>
+      <ShopCollection></ShopCollection>
     </>
   )
 }

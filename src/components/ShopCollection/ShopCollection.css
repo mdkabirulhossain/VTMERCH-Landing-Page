@@ -1,0 +1,217 @@
+@font-face {
+    font-family: Act of Rejection;
+    src: url(../../assets/Font/act_of_rejection/Act_Of_Rejection.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/Font/Inter/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.shop-collection {
+    width: 100%;
+    height: 1169px;
+    background: linear-gradient(180deg, #2C2A2A 0%, #000000 100%);
+
+}
+
+.top-title {
+    width: 640.57px;
+    height: 792.55px;
+    color: #FFFFFF;
+    background-image: url("../../assets//Logo/Valuetainment.svg");
+}
+
+.top-title-shop {
+    font-family: Montserrat;
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 58.8px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.top-title-collection {
+    font-family: Montserrat;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 58.8px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #111111;
+    margin-bottom: 16px;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.button-div {
+    margin-top: 48px;
+    margin-bottom: 25px;
+    width: 186px;
+    height: 52px;
+    border-radius: 12px;
+    padding: 16px 32px 16px 32px;
+    background: #FFFFFF;
+}
+
+.shop-container-items-title {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.bag {
+    width: 300px;
+    height: 471px;
+    border-radius: 12px;
+    opacity: 0px;
+
+}
+
+.bag-image {
+    width: 300px;
+    height: 471px;
+    border-radius: 12px;
+    box-shadow: 6px 6px 40px 0px #00000033;
+    background: linear-gradient(0deg, #1C1C1C, #1C1C1C),
+        linear-gradient(0.83deg, rgba(0, 0, 0, 0.4) -1.08%, rgba(0, 0, 0, 0) 81.57%);
+
+}
+
+.cap-book {
+    position: absolute;
+    bottom: 0;
+    left: 320px;
+}
+
+.cap {
+    width: 340px;
+    height: 282.67px;
+    border-radius: 12px;
+    opacity: 0px;
+}
+
+.cap_image {
+    width: 340px;
+    height: 282.67px;
+    border-radius: 12px;
+    opacity: 0px;
+    box-shadow: 6px 6px 40px 0px #00000033;
+    background:
+        linear-gradient(0deg, #1C1C1C, #1C1C1C),
+        linear-gradient(0.83deg, rgba(0, 0, 0, 0.4) -1.08%, rgba(0, 0, 0, 0) 81.57%);
+
+}
+
+.water-pot-container {
+    position: absolute;
+    bottom: 0;
+    left: 680px;
+}
+
+.water-pot {
+    width: 300px;
+    height: 699px;
+    border-radius: 12px;
+}
+
+.water-pot-img {
+    width: 250px;
+    height: 699px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, #1C1C1C, #1C1C1C),
+        linear-gradient(0.83deg, rgba(0, 0, 0, 0.4) -1.08%, rgba(0, 0, 0, 0) 81.57%);
+    box-shadow: 6px 6px 40px 0px #00000033;
+
+}
+
+.t-shirt-top {
+    width: 380px;
+    height: 424px;
+    border-radius: 12px;
+}
+
+.t-shirt-top-img {
+    width: 380px;
+    height: 424px;
+    border-radius: 12px;
+    background: linear-gradient(0deg, #1C1C1C, #1C1C1C),
+        linear-gradient(357.15deg, rgba(0, 0, 0, 0.2) -0.04%, rgba(102, 102, 102, 0.2) 99.5%);
+    box-shadow: 6px 6px 40px 0px #00000033;
+}
+
+.t-shirt {
+    position: absolute;
+    bottom: 0;
+    left: 950px;
+}
+
+.shop-container {
+    padding-top: 148px;
+    padding-left: 154px;
+    padding-right: 154px;
+
+}
+
+@media(max-width:600px){
+    .shop-collection {
+        height: 3269px;  
+    }
+    .top-title {
+        width: 100%;
+        height: 792.55px;
+        background: no-repeat;
+    }
+    .shop-container {
+        padding-left:5px;
+    }
+    .cap-book {
+        left: 0px;
+        top:40px;
+    }
+    .water-pot-container {
+        left: 0px;
+        top: 670px;
+    }
+    .t-shirt {
+        left: 0px;
+        top:1400px;
+    }
+    .t-shirt-top {
+        width: 360px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1199px){
+    .shop-collection {
+        height: 1969px;  
+    }
+    .top-title {
+        width: 100%;
+        height: 792.55px;
+        background: no-repeat;
+    }
+    .shop-container {
+        padding-left: 100px;
+    
+    }
+    .water-pot-container {
+        left: 0px;
+        top: 30px;
+    }
+    .t-shirt {
+        left: 300px;
+        top:30px;
+    }
+}
