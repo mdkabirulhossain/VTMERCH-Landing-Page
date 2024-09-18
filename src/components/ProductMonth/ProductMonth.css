@@ -1,0 +1,351 @@
+@font-face {
+    font-family: Act of Rejection;
+    src: url(../../assets/Font/act_of_rejection/Act_Of_Rejection.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/Font/Inter/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../assets/Font/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+.Best-product {
+    width: 100%;
+    height: 859px;
+    background: #F6F5F5;
+
+}
+
+.Best-product-title {
+    font-family: Montserrat;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 84px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #272312;
+    padding-top: 100px;
+
+}
+
+.Best-product-title-style {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+
+.Best-product-left {
+    display: flex;
+    gap: 24px;
+    width: 651px;
+    height: 527px;
+    margin-left: 263px;
+}
+
+.Best-product-left-bag-style {
+    width: 527px;
+    height: 527px;
+    border-radius: 24px;
+    box-shadow: 6px 6px 12px 0px #2F2F2F05;
+}
+
+.single-bag-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 6px 6px 12px 0px #2F2F2F05;
+
+}
+
+.Best-product-right {
+    width: 695px;
+    height: 519px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.Best-product-right-header-div {
+    width: 693px;
+    height: 121px;
+}
+
+.Best-product-right-name {
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606;
+
+}
+
+.Best-product-right-paragraph {
+    margin-top: 12px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606CC;
+
+}
+
+.Best-proud-right-price {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #272312;
+
+}
+
+.Best-proud-right-taka {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.8px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #EA2127;
+
+}
+
+.Best-proud-right-size {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606;
+
+}
+
+.Best-proud-right-sizes {
+    width: 43px;
+    height: 40px;
+    /* padding: 8px 18px 8px 8px; */
+    border: 0.5px 0px 0px 0px;
+    border: 0.5px solid #27231280;
+
+
+}
+
+.Best-proud-right-sizes-name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.Best-product-details {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+.Best-product-quantity {
+    margin-bottom: 12px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606;
+}
+
+.Best-product-quantity-box {
+    width: 40px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border: 1px solid #000000;
+
+}
+
+.Best-product-quantity-box-right {
+    width: 40px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border-top: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+
+}
+
+.Best-product-quantity-box-left {
+    width: 40px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+
+}
+
+.quantity-parameters {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606CC;
+
+}
+
+.Best-product-cart {
+    display: flex;
+    gap: 24px;
+}
+
+.Best-product-cart-button-left {
+    width: 335.5px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 12px;
+    border: 1px solid #272312;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: #272312;
+
+}
+
+.Best-product-cart-button-right {
+    width: 335.5px;
+    height: 51px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 12px;
+    background: #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Best-product-share-title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606;
+
+}
+
+.share-icon-size {
+    width: 20px;
+    height: 20px;
+}
+
+.Best-product-share-icon {
+    display: flex;
+    gap: 12px;
+}
+
+.Best-product-share-div {
+    display: flex;
+    gap: 12px;
+}
+
+.view-details-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    color: #060606CC;
+
+}
+
+.view-details-div {
+    width: 102px;
+    height: 26px;
+    padding: 0px 4px 2px 4px;
+    border-bottom: 1px solid #060606
+}
+
+.Best-product-actions{
+    width: 100%;
+    height: 352px;
+    background: linear-gradient(90deg, #EC3339 0%, #BB1117 100%);
+
+}
+
+
+@media(max-width:600px) {
+    .Best-product {
+        height: 1659px;
+    }
+
+    .Best-product-details {
+        flex-direction: column;
+    }
+
+    .Best-product-left {
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    .Best-product-right {
+        width: 100%;
+        padding-left: 10px;
+
+    }
+
+    .Best-product-right-header-div {
+        width: 100%;
+        height: 221px;
+    }
+
+    .Best-product-cart-button-left {
+        font-size: 14px;
+    }
+
+    .Best-product-cart-button-right {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1199px) {
+    .Best-product {
+        height: 1459px;
+    }
+
+    .Best-product-details {
+        flex-direction: column;
+    }
+
+    .Best-product-left {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .Best-product-right {
+        width: 100%;
+        margin-left: 50px;
+    }
+}
