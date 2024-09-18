@@ -8,7 +8,14 @@ import facebook_icon from "../../assets/Icon/facebook (4).svg"
 import twitter_icon from "../../assets/Icon/twitter (4).svg"
 import linkedin_icon from "../../assets/Icon/linkedin (3).svg"
 import instagram_icon from "../../assets/Icon/instagram-logo (1).svg"
+import delivery from "../../assets/Icon/delivery.svg"
+import exchange from "../../assets/Icon/exchange.svg"
+import support from "../../assets/Icon/customer-support 1.svg"
+import payment from "../../assets/Icon/verified.svg"
+
 import { FaArrowUp, FaArrowDown } from "react-icons/fa6";
+
+
 const ProductMonth = () => {
     return (
         <div className='Best-month-product'>
@@ -110,7 +117,34 @@ const ProductMonth = () => {
                 </div>
             </div>
             <div className="Best-product-actions">
-                
+                    <div className="Best-product-actions-div">
+                        <img src={delivery} alt="" />
+                        <div>
+                            <p className='Best-product-actions-div-title'>Shipping</p>
+                            <p className='Best-product-actions-div-text'>The attention to detail is evident in every aspect of this backpack.</p>
+                        </div>
+                    </div>
+                    <div className="Best-product-actions-div">
+                        <img src={exchange} alt="" />
+                        <div>
+                            <p className='Best-product-actions-div-title'>Shipping</p>
+                            <p className='Best-product-actions-div-text'>The attention to detail is evident in every aspect of this backpack.</p>
+                        </div>
+                    </div>
+                    <div className="Best-product-actions-div">
+                        <img src={support} alt="" />
+                        <div>
+                            <p className='Best-product-actions-div-title'>Shipping</p>
+                            <p className='Best-product-actions-div-text'>The attention to detail is evident in every aspect of this backpack.</p>
+                        </div>
+                    </div>
+                    <div className="Best-product-actions-div">
+                        <img src={payment} alt="" />
+                        <div>
+                            <p className='Best-product-actions-div-title'>Shipping</p>
+                            <p className='Best-product-actions-div-text'>The attention to detail is evident in every aspect of this backpack.</p>
+                        </div>
+                    </div>
             </div>
         </div>
     );
