@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../../assets/Logo/Valuetainment.svg'
+import logo from '../../assets/Logo/Valuetainment02.svg'
 import { IoMenu } from "react-icons/io5";
 import img_png_9 from '../../assets/img/img (9).png'
 import img_png_11 from '../../assets/img/img (11).png'
