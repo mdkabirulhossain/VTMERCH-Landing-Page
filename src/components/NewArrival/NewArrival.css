@@ -74,9 +74,8 @@
 
 .product {
     margin-left: 148px;
-    /* margin-right: 148px; */
     display: flex;
-    /* justify-content: space-between; */
+    gap: 24px;
 
 }
 
