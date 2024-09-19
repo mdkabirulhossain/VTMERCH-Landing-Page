@@ -17,9 +17,9 @@ const Header = () => {
                 <div className='nav-menu '>
                     <IoMenu className='text-white font-bold w-full h-full'></IoMenu>
                     <ul className='nav-profile-dropdown'>
-                        <li className='cursor-pointer hover:text-orange-500'>Home</li>
-                        <li className='cursor-pointer hover:text-orange-500'>About Us</li>
-                        <li className='cursor-pointer hover:text-orange-500'>Contact Us</li>
+                        <li className='cursor-pointer text-white hover:text-black w-full'>Home</li>
+                        <li className='cursor-pointer text-white hover:text-black w-full'>About Us</li>
+                        <li className='cursor-pointer text-white hover:text-black w-full'>Contact Us</li>
                     </ul>
                 </div>
             </nav>

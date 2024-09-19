@@ -46,10 +46,8 @@
     width: 40px;
     height: 40px;
     margin-top: 58px;
-    /* left: 1724px; */
     margin-right: 156px;
     padding: 5.52px 0px 5.59px 0px;
-    opacity: 0px;
     position: relative;
 
 }
@@ -59,7 +57,7 @@
     display: none;
     right: 0;
     z-index: 1;
-
+    width: 200px;
 }
 
 .nav-menu:hover .nav-profile-dropdown {
@@ -67,10 +65,12 @@
     flex-direction: column;
     align-items: start;
     gap: 10px;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     padding: 12px 40px;
     border-radius: 5px;
     list-style: none;
+    
+
 }
 
 

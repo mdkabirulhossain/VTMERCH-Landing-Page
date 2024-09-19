@@ -75,7 +75,6 @@
     width: 300px;
     height: 471px;
     border-radius: 12px;
-    opacity: 0px;
 
 }
 
@@ -99,14 +98,12 @@
     width: 340px;
     height: 282.67px;
     border-radius: 12px;
-    opacity: 0px;
 }
 
 .cap_image {
     width: 340px;
     height: 282.67px;
     border-radius: 12px;
-    opacity: 0px;
     box-shadow: 6px 6px 40px 0px #00000033;
     background:
         linear-gradient(0deg, #1C1C1C, #1C1C1C),
