@@ -227,6 +227,10 @@
     color: #272312;
 
 }
+.Best-product-cart-button-left:hover{
+    background: #EA2127;
+
+}
 
 .Best-product-cart-button-right {
     width: 335.5px;
@@ -242,7 +246,10 @@
     text-align: center;
     color: #FFFFFF;
 }
+.Best-product-cart-button-right:hover{
+    background: #EA2127;
 
+}
 .Best-product-share-title {
     font-family: Inter;
     font-size: 20px;
@@ -257,6 +264,7 @@
 .share-icon-size {
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .Best-product-share-icon {
@@ -279,14 +287,21 @@
     color: #060606CC;
 
 }
+.view-details-text:hover{
+    font-size: 16px;
+    color: red;
+
+}
 
 .view-details-div {
     width: 102px;
     height: 26px;
     padding: 0px 4px 2px 4px;
-    border-bottom: 1px solid #060606
+    border-bottom: 1px solid #060606;
 }
-
+.view-details-div:hover{
+    border-bottom: 1px solid red;
+}
 .Best-product-actions{
     width: 100%;
     height: 352px;

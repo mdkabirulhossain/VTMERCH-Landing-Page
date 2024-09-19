@@ -82,12 +82,12 @@ const ProductMonth = () => {
                             <p className='Best-product-quantity'>Quantity:</p>
                             <div className='flex'>
                                 <div className='Best-product-quantity-box-right'>
-                                    <p className='quantity-parameters'>-</p>
+                                    <p className='quantity-parameters cursor-pointer'>-</p>
                                 </div>
                                 <div className='Best-product-quantity-box'>
                                     <p>1</p>
                                 </div>
-                                <div className='Best-product-quantity-box-left'>
+                                <div className='Best-product-quantity-box-left cursor-pointer'>
                                     <p>+</p>
                                 </div>
                             </div>

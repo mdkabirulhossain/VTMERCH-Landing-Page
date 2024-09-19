@@ -92,8 +92,9 @@
     font-weight: 400;
     line-height: 168px;
     letter-spacing: 1px;
-    text-align: center;
+    text-align: left;
     color: #FFFFFF66;
+    margin-left: 150px;
 
 
 }
@@ -142,10 +143,7 @@
 .banner-adds {
     margin-left: 187px;
     display: flex;
-    /* justify-content: space-between; */
     gap: 16px;
-    /* overflow-x: auto; */
-    /* overflow-x: scroll; */
     white-space: nowrap;
 }
 
@@ -170,6 +168,8 @@
 
     .banner-text {
         font-size: 30px;
+        margin-left: 0px;
+        text-align: center;
     }
 
     .banner-adds {
@@ -213,6 +213,8 @@
 
     .banner-text {
         font-size: 75px;
+        margin-left: 0px;
+        text-align: center;
     }
 
     .banner-adds {

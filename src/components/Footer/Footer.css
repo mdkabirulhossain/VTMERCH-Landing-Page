@@ -104,7 +104,9 @@
     border: 1px solid #FFFFFF80;
     color: #FFFFFF;
 }
-
+.footer-enter-email-button:hover{
+    background: #EA2127;
+}
 .footer-sub-button {
     width: 517px;
     height: 43px;
@@ -119,7 +121,9 @@
     text-align: center;
     color: #222222;
 }
-
+.footer-sub-button:hover{
+    background: #EA2127;
+}
 .footer-mid-two-text {
     font-family: Inter;
     font-size: 20px;
@@ -142,7 +146,11 @@
     text-align: left;
     color: #FFFFFFCC;
     padding-bottom: 16px;
+    cursor: pointer;
 
+}
+.footer-mid-two-list:hover{
+    text-decoration: underline;
 }
 
 .footer-most-right-img {
@@ -177,7 +185,8 @@
 
 .footer-mid-two-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 @media(max-width:600px) {
