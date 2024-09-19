@@ -89,7 +89,7 @@
     display: flex;
     padding-top: 100px;
     padding-left: 151px;
-    padding-right: 151px;
+    /* padding-right: 151px; */
 }
 
 .new-Arrival-product-name {

@@ -1,6 +1,7 @@
 import './App.css'
 import Believe from './components/Believe/Believe'
 import BestSellProduct from './components/BestSellProduct/BestSellProduct'
+import Footer from './components/Footer/Footer'
 import FutureLooks from './components/FutureLooks/FutureLooks'
 import Header from './components/Header/Header'
 import NewArrival from './components/NewArrival/NewArrival'
@@ -21,6 +22,7 @@ function App() {
       <FutureLooks></FutureLooks>
       <Believe></Believe>
       <ProductMonth></ProductMonth>
+      <Footer></Footer>
     </>
   )
 }
